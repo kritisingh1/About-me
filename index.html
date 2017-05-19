@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<head>
+	<title>ABOUT ME</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/jpg" href="./k.jpg" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+.jumbotron {
+      background-color: #18bc9c;
+      color: #fff;
+      padding: 100px;
+}
+.bg-grey {
+      background-color: #f6f6f6;
+}
+.container-fluid {
+    padding: 60px 50px;
+   
+}
+.logo {
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+.col-sm-4 .thumbnail {
+        text-align: center;
+        margin: 20px;
+        padding: 15px;
+    }
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #18bc9c;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #18bc9c !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+.thumbnail img{
+	height: 260px;
+}
+.col-sm-4 .thumbnail:hover{
+	transform: scale(1.01,1.01);
+	transition: 0.8s;
+	box-shadow: inset 0px 4px 118px -13px rgba(0,0,0,0.8);
+}
+a img{
+	height: 100px;
+	width: 100px;
+}
+a img:hover{
+	transform: scale(1.05, 1.05);
+	transition: 0.5s;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@keyframes slide1 {
+    0% {
+        opacity: 0;
+        transform: translateX(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+	</style>
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<nav class="navbar navbar-default navbar-fixed-top navbar-right">
+  <div class="container">
+    <div class="navbar-header">
+      
+    
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#project">PROJECT</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="jumbotron text-center">
+  <h1>About Me</h1> 
+</div>
+  <div class="container-fluid text-center" id="about">
+  <div class="row slideanim">
+  <div class="col-sm-4">
+  	<img src="./k.jpg" style="height: 150px; width: 150px">
+  </div>
+  <div class="col-sm-8">
+  	<h1>
+  		<B>KRITI SINGH</B>
+  	</h1><br>
+  	Coding enthusiast, like to learn cool new stuffs. However, kinda naive at tech stuffs as of now :P but watch me as I grow!
+  </div>
+  </div>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+      <a href="www.iitr.ac.in"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Iitroorkee2015.jpg/220px-Iitroorkee2015.jpg" style="height: 150px; width: 150px"></a>
+    </div>
+  <div class="col-sm-8">
+   <h2>Computer Science undergraduate at <b>Indian Institute of Technology, Roorkee</b></h2> 
+  </div>
+  </div>
+  <div class="row slideanim">
+  	<div class="col-sm-4">
+  		<div class="col-sm-3">
+  			<a href="https://sdslabs.co"><img src="https://ctftime.org/media/team/Backup_of_sdslogo_square.png" style="height: 100px"></a>
+  		</div>
+  		<div class="col-sm-3">
+  			<a href="https://mdg.sdslabs.co"><img src="https://mdg.sdslabs.co/assets/images/favicon.png" style="height: 100px;"></a>
+  		</div>
+  		<div class="col-sm-3">
+  			<a href=""><img src="https://upload.wikimedia.org/wikipedia/en/7/73/Kshitij_Logo.png" style="height: 100px;"></a>
+  		</div>
+  		<div class="col-sm-3">
+  			<a href="https://iithbt.in"><img src="https://iithbt.in/images/iit-hbt.png" style="height: 100px;"></a>
+  		</div>
+  	</div>
+  	<div class="col-sm-8">
+  		<h1>MY WORKPLACES</h1>
+  	</div>
+  </div>
+</div>
+  <div class="container-fluid bg-grey text-center slideanim">
+    <h2>MY INTERESTS</h2>
+    <div class="col-sm-4">
+    	<div class="thumbnail">
+    		<img src="https://i.ytimg.com/vi/HkJK_s6XO2w/hqdefault.jpg">
+    		<p>
+    			<strong>PAINTING</strong>
+    		</p>
+    	</div>
+    </div>
+    <div class="col-sm-4">
+    	<div class="thumbnail">
+    		<img src="https://lh3.googleusercontent.com/dUsfnDQJZt2v9d1n2tWsPZiYLLmOQkjv3R4rbsTw83lYGo2cQe8u2z-0YQPxmmcgkL8d=w300">
+    		<p>
+    			<strong>LISTENING MUSIC</strong>
+    		</p>
+    	</div>
+    </div>
+    <div class="col-sm-4">
+    	<div class="thumbnail">
+    		<img src="https://www.myactivesg.com/~/media/consumer/images/sports/badminton/badminton%20rackets_whiteshuttle_.jpg">
+    		<p>
+    			<strong>PLAYING BADMINTON</strong>
+    		</p>
+    	</div>
+    </div>
+</div>
+  <div class="container-fluid text-center" id="project">
+  <div style="padding: 10px"><h2>My projects</h2></div>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-8">
+    	<h3>My first personal website hosted on github</h3>
+    </div>
+    <div class="col-sm-4">
+    	<a href="https://kritisingh1.github.io"><img src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/simple-black-square-icons-alphanumeric/126222-simple-black-square-icon-alphanumeric-letter-k.png" style="height: 150px padding: 5px"></a>
+    </div>
+    </div><br>
+   <div class="row slideanim">
+   		<div class="col-sm-8">
+   		<h3>Random-Quote-Machine</h3>
+   		</div>
+   		<div class="col-sm-4">
+   		<a href="https://github.com/kritisingh1/Random-Quote-Machine"><img src="http://www.cjavier.com/images/quote-machine.png" style="height: 100px padding: 5px"></a>	
+   		</div>
+   </div><br>
+   <div class="row slideanim">
+   		<div class="col-sm-8">
+   			<h3>The-hitlist-of-Arya-Stark</h3>
+   		</div>
+   		<div class="col-sm-4">
+   			<a href="https://github.com/kritisingh1/The-hitlist-of-Arya-Stark"><img src="http://i2.wp.com/www.thefeministfeline.com/wp-content/uploads/2014/06/kill-ilyn-game-of-thrones-poster-01.png" style="height: 100px padding: 5px"></a>
+   		</div>
+   </div>
+</div>
+<div class="container-fluid text-center bg-grey" id="portfolio">
+  <div style="padding: 15px">
+  <h2>Portfolio</h2>
+  <h4>What I do</h4>
+  </div>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="http://www.sopantech.com/assets/img/webdevelopmentbanner.png" alt="webd">
+        <p><strong>Web Developement</strong></p>
+        
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="http://nelshd.com/wp-content/uploads/2017/01/picture-designing-modest-with-images-of-picture-designing-plans-free-on-gallery.png" alt="design">
+        <p><strong>Designing</strong></p>
+        
+      </div>
+    </div>
+    <div class="col-sm-4">
+    	<div class="thumbnail">
+    		<img src="http://storage.googleapis.com/ix_choosemuse/uploads/2016/02/android-logo.png">
+    		<p><strong>Android Developement</strong></p>
+    	</div>
+    </div>
+</div>
+<div id="contact" class=" jumbotron text-center">
+  <h2 style="padding: 25px">CONTACT</h2> 
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <a href="http://www.facebook.com/kritisingh1.ks"><img src="./fb.jpg"></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="mailto:kritisingh1.ks@gmail.com"><img src="./gmail.png"></a>
+  </div>
+<div class="col-sm-4">
+  <a href="https//www.github.com/kritisingh1"><img src="./github.png"></a>
+    </div>
+  </div>
+<script>
+	$(document).ready(function(){
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+    var hash = this.hash;
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+      window.location.hash = hash;
+      });
+    } 
+  });
+})
+    $(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+     $(window).scroll(function() {
+  $(".slideanime").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide1");
+    }
+  });
+});
+</script>
+</body>
+</html>
